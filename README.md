@@ -1,7 +1,7 @@
 # BlackRabbitZ Privacy & Security Analyzer
 
 <p align="center">
-  <img src="logo.png" width="260">
+  <img width="2216" height="1369" alt="Screenshot 2026-05-17 103353" src="https://github.com/user-attachments/assets/a28b7fbd-c2d0-461f-a3af-936bb7fe9e67" />
 </p>
 
 <h2 align="center">
