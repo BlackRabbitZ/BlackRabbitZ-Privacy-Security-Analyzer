@@ -802,6 +802,30 @@ class App(tk.Tk):
 
         tk.Label(container, text="SECURE. PROTECT. ANONYMIZE.", bg=COLORS["panel"], fg=COLORS["red"], font=("Consolas", 14)).pack(pady=(30, 8))
 
+        tk.Label(
+            container,
+            text="Discord",
+            bg=COLORS["panel"],
+            fg=COLORS["red"],
+            font=("Segoe UI Semibold", 16)
+        ).pack(pady=(18, 6))
+
+        link = tk.Label(
+            container,
+            text="https://discord.gg/XX4E7FtXWk",
+            bg=COLORS["panel"],
+            fg="#6aa9ff",
+            cursor="hand2",
+            font=("Consolas", 12, "underline")
+        )
+        link.pack()
+
+        def open_discord(event=None):
+            import webbrowser
+            webbrowser.open("https://discord.gg/XX4E7FtXWk")
+
+        link.bind("<Button-1>", open_discord)
+
     def reset(self):
         for key, title, opts in RADIO_QUESTIONS:
             self.vars[key].set(opts[0][0])
